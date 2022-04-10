@@ -17,7 +17,7 @@
     background-color: var(--grey-light-color);
     background-position:left top;
     width: 20%;
-    height: 1000px;
+    height: 1400px;
     padding: 20px;
 
 }
@@ -43,13 +43,50 @@ a {
 }
 
 /* Section */
-.me{
-    display: flex;
+.git{
+    background-color: var(--grey-dark-color);
+    color: var(--white-color);
+    width: 50%;
     position: absolute;
-    left: 700px;
-    top: 0;
+    top: 20px;
+    left: 400px;
 }
-img{
+.git a{
+    color: var(--white-color);
+}
+.me{
+    position: absolute;
+    top: -225px;
+    left: 1250px;
+}
+.me img{
     width: 400px;
+    height: 360px;
+}
+.tell {
+    font-size: 25px;
+    position: relative;
+    top: 320px;
+    right:850px;
+    display: inline-block; 
+    width: 200px; 
+    white-space: nowrap;
+}
+/* Article */
+article {
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    left: 400px;
+    top: 380px;
+}
+article img{
+    width: 580px;
     height: 350px;
+}
+article div{
+    margin: 5px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid var(--black-color);
 }
